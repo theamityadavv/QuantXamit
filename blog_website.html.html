@@ -1,0 +1,315 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   QuantXamit
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .dark-mode {
+            background-color: #1a202c;
+            color: #a0aec0;
+        }
+  </style>
+ </head>
+ <body class="bg-white text-gray-900 dark-mode:bg-gray-900 dark-mode:text-gray-100">
+  <header class="sticky top-0 bg-white dark-mode:bg-gray-800 shadow-md z-50">
+   <div class="container mx-auto flex justify-between items-center p-4">
+    <div class="text-2xl font-bold">
+     QuantXamit
+    </div>
+    <nav class="space-x-4">
+     <a class="hover:text-blue-500" href="#home">
+      Home
+     </a>
+     <a class="hover:text-blue-500" href="#about">
+      About
+     </a>
+     <a class="hover:text-blue-500" href="#blog">
+      Blog
+     </a>
+     <a class="hover:text-blue-500" href="#categories">
+      Categories
+     </a>
+     <a class="hover:text-blue-500" href="#resources">
+      Resources
+     </a>
+     <a class="hover:text-blue-500" href="#contact">
+      Contact
+     </a>
+     <button class="focus:outline-none" id="dark-mode-toggle">
+      <i class="fas fa-moon">
+      </i>
+     </button>
+    </nav>
+   </div>
+  </header>
+  <section class="py-20 bg-gray-100 dark-mode:bg-gray-800" id="home">
+   <div class="container mx-auto text-center">
+    <h1 class="text-4xl font-bold mb-4">
+     Welcome to QuantXamit
+    </h1>
+    <p class="text-lg mb-8">
+     Discover the latest articles and insights
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+     <div class="bg-white dark-mode:bg-gray-700 p-4 rounded-lg shadow-md">
+      <img alt="Image of a modern workspace with a laptop and coffee cup" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://theamityadavv.github.io/portfolio/images/banner-01.jpg" width="300"/>
+      <h2 class="text-xl font-bold mt-4">
+       Latest Blog Post 1
+      </h2>
+      <p class="mt-2">
+       A short description of the blog post content.
+      </p>
+     </div>
+     <div class="bg-white dark-mode:bg-gray-700 p-4 rounded-lg shadow-md">
+      <img alt="Image of a person reading a book in a cozy setting" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://theamityadavv.github.io/portfolio/images/banner-01.jpg" width="300"/>
+      <h2 class="text-xl font-bold mt-4">
+       Latest Blog Post 2
+      </h2>
+      <p class="mt-2">
+       A short description of the blog post content.
+      </p>
+     </div>
+     <div class="bg-white dark-mode:bg-gray-700 p-4 rounded-lg shadow-md">
+      <img alt="Image of a travel destination with mountains and a lake" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://theamityadavv.github.io/portfolio/images/banner-01.jpg" width="300"/>
+      <h2 class="text-xl font-bold mt-4">
+       Latest Blog Post 3
+      </h2>
+      <p class="mt-2">
+       A short description of the blog post content.
+      </p>
+     </div>
+    </div>
+    <div class="mt-8">
+     <input class="p-2 rounded-l-lg border border-gray-300 dark-mode:border-gray-600" placeholder="Enter your email" type="email"/>
+     <button class="p-2 bg-blue-500 text-white rounded-r-lg">
+      Subscribe
+     </button>
+    </div>
+   </div>
+  </section>
+  <section class="py-20" id="about">
+   <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">
+     About Me
+    </h2>
+    <p class="text-lg mb-8">
+     A brief introduction to the blog and the author.
+    </p>
+    <div class="flex flex-col md:flex-row items-center justify-center">
+     <img alt="Portrait of the blog author" class="rounded-full mb-4 md:mb-0 md:mr-4" height="150" src="https://theamityadavv.github.io/portfolio/images/banner-01.jpg" width="150"/>
+     <div>
+      <p class="text-lg">
+       Hi, I'm John Doe, a passionate blogger who loves to share insights on various topics. Follow me on social media for more updates.
+      </p>
+      <div class="mt-4 space-x-4">
+       <a class="text-blue-500" href="#">
+        <i class="fab fa-facebook">
+        </i>
+       </a>
+       <a class="text-blue-500" href="#">
+        <i class="fab fa-twitter">
+        </i>
+       </a>
+       <a class="text-blue-500" href="#">
+        <i class="fab fa-linkedin">
+        </i>
+       </a>
+       <a class="text-blue-500" href="#">
+        <i class="fab fa-instagram">
+        </i>
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="py-20 bg-gray-100 dark-mode:bg-gray-800" id="blog">
+   <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">
+     Blog
+    </h2>
+    <p class="text-lg mb-8">
+     Explore our latest blog posts
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+     <div class="bg-white dark-mode:bg-gray-700 p-4 rounded-lg shadow-md">
+      <img alt="Image of a modern workspace with a laptop and coffee cup" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/URPBkxZgdB-2-FgKqxbYfGocWHSmhnAKSyCsHDfiLps.jpg" width="300"/>
+      <h2 class="text-xl font-bold mt-4">
+       Blog Post 1
+      </h2>
+      <p class="mt-2">
+       A short description of the blog post content.
+      </p>
+      <a class="text-blue-500 mt-4 inline-block" href="#">
+       Read More
+      </a>
+     </div>
+     <div class="bg-white dark-mode:bg-gray-700 p-4 rounded-lg shadow-md">
+      <img alt="Image of a person reading a book in a cozy setting" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/jcKYek2zK56P4cbAFIuyAOb62MrZMwRePhf6EfHPGrc.jpg" width="300"/>
+      <h2 class="text-xl font-bold mt-4">
+       Blog Post 2
+      </h2>
+      <p class="mt-2">
+       A short description of the blog post content.
+      </p>
+      <a class="text-blue-500 mt-4 inline-block" href="#">
+       Read More
+      </a>
+     </div>
+     <div class="bg-white dark-mode:bg-gray-700 p-4 rounded-lg shadow-md">
+      <img alt="Image of a travel destination with mountains and a lake" class="w-full h-48 object-cover rounded-t-lg" height="200" src="https://storage.googleapis.com/a1aa/image/zlHi1k7gxv1x_leDcCL6_cRhJirSvaxr3bDaOnZK-is.jpg" width="300"/>
+      <h2 class="text-xl font-bold mt-4">
+       Blog Post 3
+      </h2>
+      <p class="mt-2">
+       A short description of the blog post content.
+      </p>
+      <a class="text-blue-500 mt-4 inline-block" href="#">
+       Read More
+      </a>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="py-20" id="categories">
+   <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">
+     Categories
+    </h2>
+    <p class="text-lg mb-8">
+     Browse blog posts by category
+    </p>
+    <div class="flex flex-wrap justify-center space-x-4">
+     <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">
+      Technology
+     </button>
+     <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">
+      Lifestyle
+     </button>
+     <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">
+      Travel
+     </button>
+     <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">
+      Finance
+     </button>
+    </div>
+   </div>
+  </section>
+  <section class="py-20 bg-gray-100 dark-mode:bg-gray-800" id="resources">
+   <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">
+     Resources
+    </h2>
+    <p class="text-lg mb-8">
+     Recommended books, courses, and tools
+    </p>
+    <ul class="list-disc list-inside">
+     <li class="mb-2">
+      Book 1:
+      <a class="text-blue-500" href="#">
+       Learn More
+      </a>
+     </li>
+     <li class="mb-2">
+      Course 1:
+      <a class="text-blue-500" href="#">
+       Learn More
+      </a>
+     </li>
+     <li class="mb-2">
+      Tool 1:
+      <a class="text-blue-500" href="#">
+       Learn More
+      </a>
+     </li>
+     <li class="mb-2">
+      Guide 1:
+      <a class="text-blue-500" href="#">
+       Download
+      </a>
+     </li>
+    </ul>
+   </div>
+  </section>
+  <section class="py-20" id="contact">
+   <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">
+     Contact
+    </h2>
+    <p class="text-lg mb-8">
+     Get in touch with us
+    </p>
+    <form class="max-w-md mx-auto">
+     <div class="mb-4">
+      <input class="w-full p-2 border border-gray-300 dark-mode:border-gray-600 rounded-lg" placeholder="Name" type="text"/>
+     </div>
+     <div class="mb-4">
+      <input class="w-full p-2 border border-gray-300 dark-mode:border-gray-600 rounded-lg" placeholder="Email" type="email"/>
+     </div>
+     <div class="mb-4">
+      <textarea class="w-full p-2 border border-gray-300 dark-mode:border-gray-600 rounded-lg" placeholder="Message"></textarea>
+     </div>
+     <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">
+      Send Message
+     </button>
+    </form>
+    <div class="mt-8 space-x-4">
+     <a class="text-blue-500" href="#">
+      <i class="fab fa-facebook">
+      </i>
+     </a>
+     <a class="text-blue-500" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="text-blue-500" href="#">
+      <i class="fab fa-linkedin">
+      </i>
+     </a>
+     <a class="text-blue-500" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+    </div>
+   </div>
+  </section>
+  <footer class="py-4 bg-gray-200 dark-mode:bg-gray-800">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2023 My Blog. All rights reserved.
+    </p>
+    <div class="mt-2 space-x-4">
+     <a class="text-blue-500" href="#">
+      Privacy Policy
+     </a>
+     <a class="text-blue-500" href="#">
+      Terms of Service
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   document.getElementById('dark-mode-toggle').addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+        });
+
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+  </script>
+ </body>
+</html>
