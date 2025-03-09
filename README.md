@@ -1,1 +1,1 @@
-# QuantXamit
+https://theamityadavv.github.io/QuantXamit/
